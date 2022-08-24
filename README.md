@@ -1,2 +1,3 @@
-# repository-template
-Just a template repository containing all the initial files I want when I create a new one
+# Karabiner-Elements Modifications
+
+Just sharing my [Karabiner-Elements](https://github.com/pqrs-org/Karabiner-Elements) modifications as it may be helpful for others.
