@@ -6,3 +6,7 @@ Just sharing my [Karabiner-Elements](https://github.com/pqrs-org/Karabiner-Eleme
 
 [Function + Left/Right Arrow >> Option + Left/Right Arrow](modifications/alfred.json)
 
+## [Contexts](https://contexts.co) instead of macOS App Switcher
+
+[CMD + Tab >> Option + Tab](modifications/contexts.json)
+
