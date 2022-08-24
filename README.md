@@ -10,3 +10,7 @@ Just sharing my [Karabiner-Elements](https://github.com/pqrs-org/Karabiner-Eleme
 
 [CMD + Tab >> Option + Tab](modifications/contexts.json)
 
+## [Mail](https://support.apple.com/en-ca/guide/mail/welcome/mac) paste without formating
+
+[CMD + Shift + v >> Option + Shift + CMD + v](modifications/mail.json)
+

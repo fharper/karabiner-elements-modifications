@@ -1,0 +1,37 @@
+{
+	"description": "Mail paste without formating: CMD + Shift + v >> Option + Shift + CMD + v",
+	"manipulators": [
+		{
+			"conditions": [
+				{
+					"bundle_identifiers": [
+						"com.apple.mail"
+					],
+					"type": "frontmost_application_if"
+				}
+			],
+			"from": {
+				"key_code": "v",
+				"modifiers": {
+					"mandatory": [
+						"left_command",
+						"left_shift"
+					]
+				},
+				"simultaneous_options": {
+					"detect_key_down_uninterruptedly": true
+				}
+			},
+			"to": {
+				"key_code": "v",
+				"modifiers": [
+					"left_option",
+					"left_shift",
+					"left_command"
+				],
+				"repeat": false
+			},
+			"type": "basic"
+		}
+	]
+}
