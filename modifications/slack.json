@@ -1,0 +1,35 @@
+{
+	"description": "Slack add link to text: CMD + k >> CMD + Shift + u",
+	"manipulators": [
+		{
+			"conditions": [
+				{
+					"bundle_identifiers": [
+						"com.tinyspeck.slackmacgap"
+					],
+					"type": "frontmost_application_if"
+				}
+			],
+			"from": {
+				"key_code": "k",
+				"modifiers": {
+					"mandatory": [
+						"left_command"
+					]
+				},
+				"simultaneous_options": {
+					"detect_key_down_uninterruptedly": true
+				}
+			},
+			"to": {
+				"key_code": "u",
+				"modifiers": [
+					"left_command",
+					"left_shift"
+				],
+				"repeat": false
+			},
+			"type": "basic"
+		}
+	]
+}

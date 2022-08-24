@@ -14,3 +14,6 @@ Just sharing my [Karabiner-Elements](https://github.com/pqrs-org/Karabiner-Eleme
 
 [CMD + Shift + v >> Option + Shift + CMD + v](modifications/mail.json)
 
+## [Slack](https://slack.com/) add link to text
+
+[CMD + k >> CMD + Shift + u](modifications/slack.json)
